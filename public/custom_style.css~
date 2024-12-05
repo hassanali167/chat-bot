@@ -1,0 +1,5 @@
+.MuiAppBar-root img {
+    content: url('logo_dark.png'); /* Path to your logo */
+    height: 50px; /* Adjust logo height */
+    width: auto; /* Maintain aspect ratio */
+}
