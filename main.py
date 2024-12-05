@@ -17,7 +17,7 @@ class ChatBot:
             groq_api_key=GROQ_API_KEY,  # Use the Groq API key
             model_name="llama-3.1-70b-versatile"  # Llama 3.1 model
         )
-        
+            
     def get_response(self, user_message):
         """Send user input to the Llama model and return the response."""
         try:
