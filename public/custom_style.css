@@ -1,0 +1,17 @@
+
+
+
+
+/* CSS to increase the logo size */
+.MuiAppBar-root img {
+    height: 10%;  /* Adjust the height as needed */
+    width: 10%;    /* Keep the aspect ratio */
+}
+
+
+
+.MuiAppBar-root img {
+    content: url('logo_dark.png'); /* Path to your logo */
+    height: 500px; /* Adjust logo height */
+    width: auto; /* Maintain aspect ratio */
+}
