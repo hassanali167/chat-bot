@@ -6,3 +6,8 @@ def summarize_context(input_text, llm):
         return summary.content.strip()
     except Exception as e:
         return f"Unable to summarize the context: {str(e)}"
+
+
+
+
+
