@@ -48,7 +48,7 @@ class ChatBot:
             if self.context["var2"]:
                 summarized_context = f"{self.context['var2']} {user_message}"
                 self.context["var3"] = summarize_context(summarized_context, self.llm)
-
+            
             # Prepare the prompt
             prompt_template = PromptTemplate.from_template(
                 """
@@ -61,15 +61,8 @@ class ChatBot:
 
                 Current Context:
                 {context}
-                here is my previous chat with you so which is summarized and their have also my new chat and 
-                see this summarized previous chat and give me the next reponce by seeing this context and 
-                also if it is relavent to previous 
-                give me the best responce by using previous chat and the next query also 
-
-
-
+                
                 User: {user_input}
-                here is my new question do this also use previous chat if thay are related to each other 
                 
                 Bot Response:
                 """
@@ -94,7 +87,3 @@ class ChatBot:
             return f"Error: Unable to parse the response. {str(e)}"
         except Exception as e:
             return f"Error occurred while processing your request: {str(e)}"
-
-
-
-
