@@ -24,8 +24,8 @@ Welcome to the **AI Chatbot** repository! This project implements an intelligent
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/hassanali167/chat-bot
-cd your-repo-name
+git clone https://github.com/hassanali167/chat-bot.git
+cd chat-bot
 ```
 
 ### Step 2: Create a Virtual Environment
@@ -83,7 +83,7 @@ Here’s a quick list of all the commands you’ll need:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hassanali167/chat-bot
+   git clone https://github.com/hassanali167/chat-bot.git
    cd chat-bot
    ```
 
