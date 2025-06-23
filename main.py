@@ -1,7 +1,3 @@
-
-
-# new code  for seprate file
-
 import os
 import chainlit as cl
 from chain import ChatBot
